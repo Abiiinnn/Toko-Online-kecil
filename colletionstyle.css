@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   background-color: rgb(37, 27, 46);
+    
+}
+
+/* navbar */
+.h1newarival strong{
+    margin-left: 40px;
+    color: #ccc;
+    
+
+}
+.pteks{
+    margin-left: 40px;
+    color: #ccc;
+}
+.font_h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.box_navbar{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    background-color: #140339;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    width: 100px; 
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #ccc;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart img {
+    width: 30px;
+    margin-right: 20px;
+  }
+  
+  .search input[type="text"] {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+ /* navbar */
+ /* body */
+
+
+ .container_newarival {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+ 
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #ccc;
+    
+    
+  }
+  
+  .card-image {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .4s ease;
+  }
+  
+  .card-image:hover img {
+    transform: scale(1.1);
+  }
+  
+  .text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .card-content .text {
+    margin-bottom: 20px;
+  }
+  
+  .card-content .text p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  
+  .card-content .cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-content .cta a {
+    display: block;
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  
+  .cta-button {
+    background-color: green;
+    margin-right: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: darkgreen;
+  }
+  .see-more-button{
+    background-color: green;
+    margin-right: 20px;
+  }
+  .see-more-button:hover{
+    background-color: darkgreen;
+    
+  }
+  
+  .prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    margin-top: 10px;
+  }
+  
+  .card-content .prices p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .card-content .prices span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+ /* body */
+
+ /* footer */
+
+
+ .footer {
+    background-color:  #140339;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .footer_container p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1200px;
+    /* margin: 0 auto;
+    padding: 0 20px; */ 
+    background-color: #f00;
+
+  }
+  
+  .footer .container p {
+    margin: 0;
+    font-size: 0.9em;
+    
+  }
+  
+  .footer .container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer .container ul ul {
+    margin: 0 10px;
+  }
+  
+ /* footer */
